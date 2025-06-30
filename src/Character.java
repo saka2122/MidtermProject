@@ -10,7 +10,6 @@ public abstract class Character implements Creature {//HeroとSlimeクラスの�
     public final boolean isAlive() {//生きているかの判断
         return hp > 0;
     }
-
     public void showStatus() {//キャラの状態を表示
         System.out.println(name + "：HP " + hp);
     }
