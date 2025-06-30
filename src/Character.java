@@ -15,5 +15,5 @@ public abstract class Character implements Creature {//HeroとSlimeクラスの�
         System.out.println(name + "：HP " + hp);
     }
 
-    public abstract void attack(Character target);//ここでは攻撃内容を決めない。子クラスのHeroとSlimeで書く。
+
 }
